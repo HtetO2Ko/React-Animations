@@ -27,7 +27,7 @@ export default function ChallengeItem({
   }
 
   return (
-    <motion.li leyout>
+    <motion.li leyout exit={{ y: -30, opacity: 0 }}>
       <article className="challenge-item">
         <header>
           <img {...challenge.image} />
